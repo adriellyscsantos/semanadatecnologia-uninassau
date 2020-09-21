@@ -1,0 +1,671 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #1a5585;
+  font-family: "Raleway", sans-serif;
+}
+
+
+.menu-wrap{
+  display: none;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.navegacao {
+  height: 70px;
+  background-color: #012442;
+  width: 135rem;
+  display: flex;
+  position: fixed;
+}
+
+.navegacao-listas {
+  display: flex;
+
+  margin: 0 auto;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 40rem;
+}
+.navegacao__menu-hamburguer {
+  display: none;
+}
+
+.inicio a{
+  color: #e4b53b;
+  text-decoration: none;
+ 
+}
+
+
+
+.inicio-a{
+  text-decoration: none;
+  color: white;
+}
+
+.img-nav {
+  background: url("../img/Vector\ \(1\).png");
+  background-size: cover;
+  width: 18.1rem;
+  height: 5rem;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  color: white;
+}
+li {
+  padding: 1rem;
+  font-size: 16px;
+}
+
+li a:hover{
+  color:  #f9a826;
+}
+
+
+
+.img {
+  background: url(../img/background.jpg) no-repeat center center;
+  background-size: cover;
+  width: 135rem;
+  height: 57rem;
+  width: 100%;
+}
+
+.botao__div {
+  display: flex;
+
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.botao {
+  background-color: #1a5585;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: white;
+  margin-top: 50rem;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.60);
+}
+
+.section-sobre-nos {
+  display: flex;
+  background-color: #012442;
+
+  
+}
+
+.sobre-nos {
+  display: flex;
+
+  margin: 0 auto;
+  text-align: left;
+  align-items: center;
+  margin-top: 10rem;
+
+  justify-content: center;
+}
+.img-sobre {
+  background: url(../img/tecnologyfuture.png);
+  background-size: cover;
+  width: 30rem;
+  height: 30rem;
+}
+
+.box-sobre {
+  margin-left: 40rem;
+  width: 40rem;
+  padding: 1rem;
+}
+
+.textos-sobre {
+  color: black;
+  background-color: #e4b53b;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.uninassau {
+  color: #1a5585;
+}
+
+.ladsoft {
+  color: red;
+}
+
+.laftec {
+  color: #e91e63;
+}
+
+.box-sobre-azul {
+  margin-left: 15rem;
+  width: 60rem;
+  padding: 1rem;
+  margin-left: 20rem;
+}
+.textos-sobre-azul {
+  background-color: #1a5585;
+  padding: 2rem;
+  color: white;
+  font-size: 16px;
+}
+
+.paragrafo {
+  padding: 0.5rem;
+  margin: 0;
+  font-size: 16px;
+  text-align: justify;
+  
+}
+
+.sobre-ladsoft {
+  background-color: white;
+  width: 70rem;
+  margin-top: 2rem;
+  margin: 0 auto;
+  
+}
+.sobre-laftec {
+  background-color: white;
+  width: 70rem;
+  /* margin-left: 40rem; */
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding-bottom: 70px;
+}
+.logo-ladsoft {
+  background: url(../img/lad-remove.png);
+  background-size: cover;
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+}
+
+.logo-laftec {
+  background: url(../img/laftec.png);
+  background-size: cover;
+  width: 15rem;
+  height: 15rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.quem-somos {
+  display: block;
+  background-color: #ffffff;
+border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.60);
+
+}
+
+.section-quemsomos {
+  background-color: #1a5585;
+
+}
+
+.titulo-quemsomos {
+  color: white;
+   padding: 2rem 0;
+ 
+  font-size: 3rem;
+ 
+  display: flex;
+    
+    text-align: center;
+    justify-content: center;
+
+ 
+}
+
+.paragrafos {
+  color: black;
+  width: 70rem;
+  text-align: left;
+  padding: 0.5rem;
+  font-size: 16px;
+  text-align: justify;
+  
+}
+
+.img-tecnologia {
+  background: url(../img/90440.jpg);
+  background-size: cover;
+ 
+  width: 134.9rem;
+  height: 60rem;
+}
+.texto-tecnologia {
+  display: flex;
+
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 20rem;
+  /* padding-left: 30rem; */
+  font-size: 20px;
+  color: white;
+  flex-wrap: wrap;
+}
+.programacao-semanatecnologia {
+  background-color:#1a5585;
+  display: flex;
+
+  margin: 0 auto;
+  justify-content: center;
+
+  text-align: center;
+  align-items: center;
+  height: 40rem;
+  
+}
+
+.programacao-titulo {
+  background-color: #1a5585;
+  display: flex;
+
+  margin: 0 auto;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.titulo-programacao {
+  color: white;
+  /* background-color: #e4b53b; */
+  width: 40rem;
+  padding: 2rem;
+  margin-top: 5rem;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+}
+
+.titulo-programacao::after{
+content: '';
+display: block;
+position: absolute;
+height: 3px;
+width: 90%;
+background: yellow;
+left: 50%;
+transform: translateX(-50%);
+bottom: -5px;
+
+}
+
+.box-programacao {
+  background-color: #1a5585;
+  box-shadow: 0 10px 25px rgba(0,0,0,.20);
+  width: 20rem;
+  height: 25rem;
+  margin-top: 5rem;
+  margin: 60px;
+}
+
+.programacao_um {
+  background: url(../img/icon1.svg);
+  background-size: cover;
+  width: 6rem;
+  height: 6rem;
+  margin-left: 6rem;
+  margin-top: 3rem;
+}
+.programacao_dois {
+  background: url(../img/icon1.svg);
+  background-size: cover;
+  width: 6rem;
+  height: 6rem;
+  margin-left: 6rem;
+  margin-top: 3rem;
+}
+.programacao_tres {
+  background: url(../img/icon1.svg);
+  background-size: cover;
+  width: 6rem;
+  height: 6rem;
+  margin-left: 6rem;
+  margin-top: 3rem;
+}
+
+.texto-programacao {
+  color: white;
+  padding-top: 2rem;
+  font-size: 16px;
+}
+.rodape {
+  background-color: #292828;
+  padding-top: 6rem;
+  height: 55rem;
+}
+
+.img-rodape {
+  background: url(../img/cracha.svg);
+  background-size: cover;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.se-inscreva {
+  color: white;
+
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 2rem;
+  font-size: 50px;
+  width: 50rem;
+}
+
+.se-inscreva_paragrafo {
+  color: white;
+
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  width: 50rem;
+  font-size: 16px;
+  text-align: justify;
+}
+.se-inscreva_paragrafo2 {
+  color: #f9a826;
+
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 2rem;
+  font-size: 16px;
+}
+
+.botao-inscreva {
+  background-color: #f9a826;
+  text-decoration: none;
+  color: white;
+  padding: 2rem;
+  margin-top: 5rem;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.60);
+}
+
+/* RESPONSIVIDADE */
+
+
+
+@media screen and (max-width: 1280px){
+  .img-tecnologia{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+
+
+    .navegacao-listas{
+      margin: -30px;
+    }
+
+    .img-nav{
+      margin-left: 10px;
+    }
+    .img{
+        background-size: cover;
+        width: 100%;
+        height: 0;
+        height: 80%;
+    }
+
+    .botao{
+        margin-top: 30rem;
+    }
+
+    
+
+    .img-tecnologia{
+     
+        width: 100%;
+    }
+
+    .box-sobre, .box-sobre-azul{
+        margin: 0;
+        
+    }
+
+    .box-sobre{
+      width: 400px;
+      margin-left: 50px;
+    }
+
+    .box-sobre-azul{
+      width: 450px;
+    }
+
+    .titulo-quemsomos{
+        padding-top: 30px;
+    }
+
+    .section-quemsomos{
+      width: 70%;
+    }
+
+    .paragrafos{
+      width: 40rem;
+    }
+
+    .sobre-ladsoft, .sobre-laftec{
+      margin: 0 auto;
+      margin-left: 200px;
+      width: 90%;
+    }
+
+    .logo-ladsoft, .logo-laftec{
+      margin-left: 100px;
+    }
+
+    .quem-somos{
+      
+      border-radius: none;
+      margin: 0;
+    }
+    .container{
+      margin: 0;
+    }
+
+    .section-quemsomos{
+      margin: 0;
+      background: none;
+      border-radius: none;
+    }
+
+
+}
+
+@media screen and (max-width: 375px){
+  .box-sobre{
+    margin: 0;
+   width: 100%;
+   padding: 0;
+  }
+  .textos-sobre{
+  width: 100%;
+  }
+
+  .box-sobre-azul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+  }
+
+ul{
+  background-color: #292828;
+  padding: 40px;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width:420px){
+
+
+  ul{
+    display: block;
+   background-color: #292828;
+   padding: 0;
+   margin: 0;
+  }
+  .menu-wrap{
+    display: inline;
+  }
+
+  
+    .navegacao-listas{
+        display: none;
+    }
+.img-sobre{
+  margin: 0 auto;
+}
+
+  .img{
+    background-size: contain;
+    margin-top: 0;
+  }
+  .botao{
+    margin: 0 auto;
+    margin-top: 220px;
+    margin-bottom: 50px;
+   box-shadow: 0 10px 25px rgba(0,0,0,.60);
+ 
+  }
+  .box-sobre{
+    margin: 0 auto;
+   
+   width: 100%;
+   padding: 0;
+   padding-top: 20px;
+  }
+  .sobre-nos{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.section-sobre-nos{
+  margin-top: -70px;
+}
+
+.img-sobre{
+  margin-top: 20px;
+}
+
+  .box-sobre-azul{
+    margin: 0 auto;
+    width: 100%;
+ 
+    padding: 0;
+    padding-bottom: 50px;
+  }
+
+  .paragrafo{
+    width: 100%;
+    text-align: justify;
+    
+    
+  }
+
+  .quem-somos{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+   
+  }
+
+  .section-quemsomos{
+    display: flex;
+
+    
+    margin-left: 70px;
+  }
+
+  
+  .sobre-ladsoft, .sobre-laftec{
+    margin: 0;
+  }
+  .paragrafos{
+    width: 100%;
+    padding-left: 35px;
+   
+    
+    
+  }
+
+  .programacao-semanatecnologia{
+    display: block;
+    margin: 0 auto;
+  }
+.box-programacao{
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-top: 40px;
+}
+  .img-tecnologia{
+    
+    width: 100%;
+    margin-top: 550px;
+  }
+
+  .rodape{
+    margin: 0;
+    
+  }
+
+  .se-inscreva{
+    width: 100%;
+  }
+
+  .se-inscreva_paragrafo{
+    width: 90%;
+    
+  }
+
+  .botao-inscreva{
+    margin-top: 10px;
+  }
+
+  
+}
+
+
+
