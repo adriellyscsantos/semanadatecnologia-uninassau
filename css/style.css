@@ -342,7 +342,7 @@ bottom: -5px;
 
 
 .programacao_um {
-  background: url(../img/code.svg);
+  background: url('../img/code.svg');
   background-size: cover;
   width: 6rem;
   height: 6rem;
@@ -350,7 +350,7 @@ bottom: -5px;
   margin-top: 4rem;
 }
 .programacao_dois {
-  background: url(../img/workshop.svg);
+  background: url('../img/workshop.svg');
   background-size: cover;
   width: 6rem;
   height: 6rem;
@@ -358,7 +358,7 @@ bottom: -5px;
   margin-top: 4rem;
 }
 .programacao_tres {
-  background: url(../img/joystick.svg);
+  background: url('../img/joystick.svg');
   background-size: cover;
   width: 6rem;
   height: 6rem;
@@ -366,7 +366,7 @@ bottom: -5px;
   margin-top: 4rem;
 }
 .programacao_quatro {
-  background: url(../img/oficina.svg);
+  background: url('../img/oficina.svg');
   background-size: cover;
   width: 6rem;
   height: 6rem;
@@ -374,7 +374,7 @@ bottom: -5px;
   margin-top: 4rem;
 }
 .programacao_cinco {
-  background: url(../img/coding.svg);
+  background: url('../img/coding.svg');
   background-size: cover;
   width: 6rem;
   height: 6rem;
