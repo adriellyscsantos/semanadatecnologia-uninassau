@@ -26,6 +26,8 @@ body {
   width: 135rem;
   display: flex;
   position: fixed;
+  z-index: 10;
+  
 }
 
 .navegacao-listas {
@@ -93,6 +95,7 @@ li a:hover{
   justify-content: center;
   text-align: center;
   align-items: center;
+ 
 }
 .botao {
   background-color: #1a5585;
@@ -103,6 +106,11 @@ li a:hover{
   font-weight: bold;
   font-size: 16px;
   box-shadow: 0 10px 25px rgba(0,0,0,.60);
+  
+}
+
+.botao:hover{
+  transform: scale(1.2);
 }
 
 .section-sobre-nos {
@@ -320,43 +328,83 @@ bottom: -5px;
   width: 20rem;
   height: 25rem;
   margin-top: 5rem;
-  margin: 60px;
+  margin: 20px;
 }
 
+
+.box-programacao:hover{
+  transform: scale(1.2);
+  border-top: 1px solid yellow;
+  border-left: 1px solid yellow;
+  border-right: 1px solid yellow;
+  border-bottom: 1px solid yellow;
+}
+
+
 .programacao_um {
-  background: url(../img/icon1.svg);
+  background: url(../img/code.svg);
   background-size: cover;
   width: 6rem;
   height: 6rem;
   margin-left: 6rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 .programacao_dois {
-  background: url(../img/icon1.svg);
+  background: url(../img/workshop.svg);
   background-size: cover;
   width: 6rem;
   height: 6rem;
   margin-left: 6rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 .programacao_tres {
-  background: url(../img/icon1.svg);
+  background: url(../img/joystick.svg);
   background-size: cover;
   width: 6rem;
   height: 6rem;
   margin-left: 6rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
+}
+.programacao_quatro {
+  background: url(../img/oficina.svg);
+  background-size: cover;
+  width: 6rem;
+  height: 6rem;
+  margin-left: 6rem;
+  margin-top: 4rem;
+}
+.programacao_cinco {
+  background: url(../img/coding.svg);
+  background-size: cover;
+  width: 6rem;
+  height: 6rem;
+  margin-left: 6rem;
+  margin-top: 4rem;
 }
 
 .texto-programacao {
   color: white;
-  padding-top: 2rem;
+  padding-top: 4rem;
   font-size: 16px;
+ 
+}
+
+.texto-programacao-bottom{
+  color: white;
+  padding-top: 4rem;
+  font-size: 13px;
+}
+
+.link-texto{
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
 }
 .rodape {
   background-color: #292828;
   padding-top: 6rem;
   height: 55rem;
+
 }
 
 .img-rodape {
@@ -415,6 +463,10 @@ bottom: -5px;
   font-weight: bold;
   font-size: 16px;
   box-shadow: 0 10px 25px rgba(0,0,0,.60);
+}
+
+.botao-inscreva:hover{
+  transform: scale(1.2);
 }
 
 /* RESPONSIVIDADE */
@@ -504,6 +556,20 @@ bottom: -5px;
       margin: 0;
       background: none;
       border-radius: none;
+    }
+
+    .programacao-semanatecnologia{
+      display: block;
+      margin-left: 250px;
+      
+    }
+
+    .img-tecnologia{
+      margin-top: 1100px;
+    }
+
+    .box-programacao{
+      margin-top: 50px;
     }
 
 
@@ -643,7 +709,7 @@ ul{
   .img-tecnologia{
     
     width: 100%;
-    margin-top: 550px;
+    margin-top: 1100px;
   }
 
   .rodape{
@@ -662,6 +728,10 @@ ul{
 
   .botao-inscreva{
     margin-top: 10px;
+  }
+
+  .texto-programacao{
+    margin-top: -3rem;
   }
 
   
