@@ -346,7 +346,7 @@ bottom: -5px;
   background-size: cover;
   width: 6rem;
   height: 6rem;
-  margin-left: 6rem;
+  margin-left:7rem;
   margin-top: 4rem;
 }
 .programacao_dois {
@@ -354,7 +354,7 @@ bottom: -5px;
   background-size: cover;
   width: 6rem;
   height: 6rem;
-  margin-left: 6rem;
+  margin-left: 7rem;
   margin-top: 4rem;
 }
 .programacao_tres {
@@ -362,7 +362,7 @@ bottom: -5px;
   background-size: cover;
   width: 6rem;
   height: 6rem;
-  margin-left: 6rem;
+  margin-left: 7rem;
   margin-top: 4rem;
 }
 .programacao_quatro {
@@ -370,7 +370,7 @@ bottom: -5px;
   background-size: cover;
   width: 6rem;
   height: 6rem;
-  margin-left: 6rem;
+  margin-left: 7rem;
   margin-top: 4rem;
 }
 .programacao_cinco {
@@ -378,7 +378,7 @@ bottom: -5px;
   background-size: cover;
   width: 6rem;
   height: 6rem;
-  margin-left: 6rem;
+  margin-left: 7rem;
   margin-top: 4rem;
 }
 
@@ -469,6 +469,22 @@ bottom: -5px;
   transform: scale(1.2);
 }
 
+
+footer{
+  background-color: black;
+  height:  4rem;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+footer p{
+  color: white;
+  font-size: 13px;
+}
 /* RESPONSIVIDADE */
 
 
