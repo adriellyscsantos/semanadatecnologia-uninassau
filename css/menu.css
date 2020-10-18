@@ -175,4 +175,17 @@
         top: -16.5rem;
         left: 3rem;
     }
+
+}
+
+@media screen and (max-width: 320px){
+  .menu-wrap {
+      left: 26rem;
+  }
+
+  .menu-wrap .menu {
+      top: -16.5rem;
+      left: 3rem;
+  }
+
 }

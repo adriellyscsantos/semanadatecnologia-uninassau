@@ -4,6 +4,7 @@
 }
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -23,7 +24,7 @@ body {
 .navegacao {
   height: 70px;
   background-color: #012442;
-  width: 135rem;
+  width: 100%;
   display: flex;
   position: fixed;
   z-index: 1;
@@ -81,9 +82,8 @@ li a:hover{
 
 
 .img {
-  background: url(../img/background.jpg) no-repeat center center;
+  background: url(../img/banner-bg.png) no-repeat center center;
   background-size: cover;
-  width: 135rem;
   height: 57rem;
   width: 100%;
 }
@@ -244,12 +244,14 @@ border-radius: 20px;
 }
 
 .paragrafos {
-  color: black;
+  color: #012442;
   width: 70rem;
-  text-align: left;
+  
   padding: 0.5rem;
   font-size: 16px;
   text-align: justify;
+  font-weight: bold;
+
   
 }
 
@@ -257,7 +259,7 @@ border-radius: 20px;
   background: url(../img/90440.jpg);
   background-size: cover;
  
-  width: 134.9rem;
+  width: 100%;
   height: 60rem;
 }
 .texto-tecnologia {
@@ -325,10 +327,10 @@ bottom: -5px;
 .box-programacao {
   background-color: #1a5585;
   box-shadow: 0 10px 25px rgba(0,0,0,.20);
-  width: 20rem;
+  width: 35rem;
   height: 25rem;
   margin-top: 5rem;
-  margin: 20px;
+  margin: 100px;
 }
 
 
@@ -341,46 +343,46 @@ bottom: -5px;
 }
 
 
-.programacao_um {
+/* .programacao_um {
   background: url('../img/code.svg');
   background-size: cover;
   width: 6rem;
   height: 6rem;
   margin-left:7rem;
   margin-top: 4rem;
-}
+} */
 .programacao_dois {
   background: url('../img/workshop.svg');
   background-size: cover;
   width: 6rem;
   height: 6rem;
-  margin-left: 7rem;
+  margin-left: 14rem;
   margin-top: 4rem;
 }
-.programacao_tres {
+/* .programacao_tres {
   background: url('../img/joystick.svg');
   background-size: cover;
   width: 6rem;
   height: 6rem;
   margin-left: 7rem;
   margin-top: 4rem;
-}
+} */
 .programacao_quatro {
   background: url('../img/oficina.svg');
   background-size: cover;
   width: 6rem;
   height: 6rem;
-  margin-left: 7rem;
+  margin-left: 14rem;
   margin-top: 4rem;
 }
-.programacao_cinco {
+/* .programacao_cinco {
   background: url('../img/coding.svg');
   background-size: cover;
   width: 6rem;
   height: 6rem;
   margin-left: 7rem;
   margin-top: 4rem;
-}
+} */
 
 .texto-programacao {
   color: white;
@@ -485,6 +487,25 @@ footer p{
   color: white;
   font-size: 13px;
 }
+
+
+::-webkit-scrollbar {
+  background-color: #012442;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:#f9a826;
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.10);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.10);
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.10);
+  border-radius: 10px;
+}
+
 /* RESPONSIVIDADE */
 
 
@@ -508,7 +529,7 @@ footer p{
     .img{
         background-size: cover;
         width: 100%;
-        height: 0;
+
         height: 80%;
     }
 
@@ -576,16 +597,21 @@ footer p{
 
     .programacao-semanatecnologia{
       display: block;
-      margin-left: 250px;
+      margin-left: 200px;
       
     }
 
     .img-tecnologia{
-      margin-top: 1100px;
+      margin-top: 300px;
+     
     }
 
     .box-programacao{
       margin-top: 50px;
+      margin-left: -10px;
+    }
+    .box-programacao:hover{
+      transform: scale(1.0);
     }
 
 
@@ -611,6 +637,10 @@ footer p{
 ul{
   background-color: #292828;
   padding: 40px;
+}
+
+.box-programacao:hover{
+  transform: scale(1.0);
 }
 
 
@@ -725,7 +755,7 @@ ul{
   .img-tecnologia{
     
     width: 100%;
-    margin-top: 1100px;
+    margin-top: 250px;
   }
 
   .rodape{
@@ -748,6 +778,10 @@ ul{
 
   .texto-programacao{
     margin-top: -3rem;
+  }
+
+  .box-programacao:hover{
+    transform: scale(1.0);
   }
 
   
